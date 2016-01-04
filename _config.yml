@@ -1,0 +1,28 @@
+name: Happy Bottom Bikes
+favicon: null
+layout_spectrum: 0.3582607500720769
+typography_spectrum: 0.33923460403457284
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+color:
+  brandColors:
+    - '#FF6700'
+    - '#EBEBEB'
+    - '#C0C0C0'
+    - '#3A6EA5'
+    - '#004E98'
+  brandStrength: 0.9117808823939413
+  lightness: 0.9350590892136097
+  saturation: 0.5799053288064897
+  rhythmicContrast: 0.6824086657725275
+purpose: []
