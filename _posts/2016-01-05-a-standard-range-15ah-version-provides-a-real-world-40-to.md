@@ -6,8 +6,8 @@ inLanguage: null
 starred: false
 keywords: []
 description: ''
-datePublished: '2016-01-05T05:35:29.496Z'
-dateModified: '2016-01-05T04:53:44.211Z'
+datePublished: '2016-01-05T05:53:00.478Z'
+dateModified: '2016-01-05T05:35:29.496Z'
 title: "A \"Standard Range\" 15Ah version provides a real world\_40 to 50 milesriding and is the most affordable entry to the world of utility/cargo e-bikes."
 author: []
 authors: []
