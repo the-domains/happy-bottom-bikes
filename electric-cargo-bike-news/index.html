@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>Electric Cargo Bike News - Happy Bottom Bikes</title><link href="../rss.xml" title="Happy Bottom Bikes feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.16.25"><meta name="the-grid-solution" content="855d8854-bde5-4c41-b209-5202bf1ae757"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
+<!DOCTYPE HTML><html class="exporting wf-loading"><head><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/><title>Electric Cargo Bike News - Happy Bottom Bikes</title><link href="../rss.xml" title="Happy Bottom Bikes feed" rel="alternate" type="application/rss+xml"/><meta name="generator" content="The Grid taylor/0.17.3"><meta name="the-grid-solution" content="12111b9f-b6bb-40e4-b98d-0815802e8618"><style href="./css/scale/mini.css" media="(max-width: 19.9376em)" rel="stylesheet">@media (max-width: 15.625em){html{font-size:3.09375em !important}}
 @media (min-width: 15.6875em)and (max-width: 15.75em){	html{font-size:3.28125em !important}}
 @media (min-width: 15.8125em)and (max-width: 16.25em){	html{font-size:3.375em !important}}
 @media (min-width: 16.3125em)and (max-width: 16.6875em){html{font-size:3.46875em !important}}
@@ -202,6 +202,14 @@ body {
 }
 .stack {
   z-index: 1;
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+}
+.group,
+.aside,
+.decoration {
+  transition: transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
 }
 picture {
   display: inline-block;
@@ -250,6 +258,9 @@ a:active {
   transition: color 0.1s ease-in, background-color 0.1s ease-out;
   -webkit-transition: color 0.1s ease-in, background-color 0.1s ease-out;
 }
+a.aside {
+  display: inline-block;
+}
 html.exporting a {
   transition: none;
 }
@@ -259,11 +270,21 @@ html.exporting a {
 .media > a {
   display: inline-block;
 }
+.media iframe {
+  transition: 0.3s opacity ease-in;
+  -webkit-transition: 0.3s opacity ease-in;
+}
 h1 a,
 h2 a,
 h3 a {
   font-weight: inherit;
   letter-spacing: inherit;
+}
+a {
+  -webkit-box-decoration-break: clone;
+  -ms-box-decoration-break: clone;
+  -moz-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .text-decoration {
   -webkit-box-decoration-break: clone;
@@ -277,36 +298,50 @@ h3 a {
   margin-left: 1.5em;
 }
 .decoration {
-  position: relative;
   pointer-events: none;
+}
+.svg {
+  position: relative;
   background-color: currentColor;
 }
-.decoration > svg {
+.svg > svg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.decoration.connector > svg {
+.svg.connector > svg {
   width: 109%;
   height: 109%;
   margin-left: -2%;
 }
-.decoration path,
-.decoration ellipse,
-.decoration rect,
-.decoration polygon,
-.decoration circle {
+.svg path,
+.svg ellipse,
+.svg rect,
+.svg polygon,
+.svg circle {
   fill: currentColor;
 }
-.decoration mpath,
-.decoration line,
-.decoration polyline {
+.svg mpath,
+.svg line,
+.svg polyline {
   stroke: currentColor;
 }
-.svg.decoration {
+.svg {
   background-color: transparent;
+}
+.revealed .play.svg:after {
+  display: block;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  background-color: currentColor;
+  content: "";
 }
 .colors-style-aside-border .publisher,
 .colors-style-aside-border .author {
@@ -1216,7 +1251,7 @@ display: none;
             </g>
         </g>
     </g>
-</svg></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack textual i first_chapter w_headline w_title w_paragraph w_text w_separator w_decoration w_short_headline w_short_title w_medium_paragraph w_medium_text stack textual" itemid="81970a6e-1c0e-4f7d-bcd5-55979315a7b7" itemtype="text" diff_index="4" index="textual" kind="stack" score="5.625" missed="0.375" tag="article" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7"><div kind="group" index="textual" class="group textual group textual" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7-g-textual"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7-g-textual-t-headline"><span class="text-decoration" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7-g-textual-t-headline-span">Electric Cargo <wbr class="w480 w960"></wbr>Bike <wbr class="w481 w961 w1799"></wbr>News</span></h1><div kind="decoration" index="separator" class="decoration separator decoration separator svg" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7-g-textual-d-separator-desktop"><?xml version="1.0" encoding="utf-8"?>
+</svg></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_large chapter stack textual i first_chapter w_headline w_title w_paragraph w_text w_separator w_decoration w_short_headline w_short_title w_medium_paragraph w_medium_text stack textual" itemid="81970a6e-1c0e-4f7d-bcd5-55979315a7b7" itemtype="text" diff_index="4" index="textual" kind="stack" score="1.625" missed="0.375" tag="article" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7"><div kind="group" index="textual" class="group textual group textual" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7-g-textual"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader title headline" specificity="0.25" itemprop="title" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7-g-textual-t-headline"><span class="text-decoration" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7-g-textual-t-headline-span">Electric Cargo <wbr class="w480 w960"></wbr>Bike <wbr class="w481 w961 w1799"></wbr>News</span></h1><div kind="decoration" index="separator" class="decoration separator decoration separator svg" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7-g-textual-d-separator-desktop"><?xml version="1.0" encoding="utf-8"?>
 
 <svg preserveAspectRatio="none" id="u-81970a6e-1c0e-4f7d-bcd5-55979315a7b7-g-textual-d-separator-desktop-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
@@ -1234,7 +1269,7 @@ display: none;
 	 viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
 <path fill="#808285" d="M36,2.3L0.3,64.7h71.4L36,2.3z M36,8.3l30.6,53.4H5.4L36,8.3z"/>
 </svg>
-</div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="576f018d-051c-41e4-9172-af2137a81b6a" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-576f018d-051c-41e4-9172-af2137a81b6a"><div kind="group" index="column" class="group column group column" id="u-576f018d-051c-41e4-9172-af2137a81b6a-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-576f018d-051c-41e4-9172-af2137a81b6a-g-column-t-paragraph"><p><span class="first-letter">M</span>y history; I am the only one in my family born <wbr class="w480 w960"></wbr>in the U.S. and since <wbr class="w481"></wbr>my <wbr class="w961 w1799"></wbr>parents were both <wbr class="w480 w960 w1800"></wbr>Dutch, bicycles are a part of our DNA. Bikes are <wbr class="w480 w481 w960"></wbr>not a <wbr class="w961 w1799"></wbr>luxury, but a necessity there. In Holland <wbr class="w480 w960 w1800"></wbr>there are 16 Million <wbr class="w481"></wbr>people and <wbr class="w961 w1799"></wbr>literally 99% of <wbr class="w480 w960"></wbr>them have one, no matter the age&#x2026;.I believe <wbr class="w480 w481 w960"></wbr>the <wbr class="w1800"></wbr>highest <wbr class="w961 w1799"></wbr>average in the world. Going hand in <wbr class="w480 w960"></wbr>hand with bicycles and <wbr class="w481"></wbr>being <wbr class="w1799"></wbr>Dutch, <wbr class="w961"></wbr>is the need <wbr class="w480 w960"></wbr>to be <wbr class="w1800"></wbr>a minimalist. Growing up, I did not have a <wbr class="w480 w481 w960"></wbr>car <wbr class="w1799"></wbr>till I went <wbr class="w961"></wbr>to college, but riding a used &#x2018;48 <wbr class="w480 w960"></wbr>Schwinn <wbr class="w1800"></wbr>Typhoon my <wbr class="w481 w1799"></wbr>daughter happens <wbr class="w961"></wbr>to still <wbr class="w480 w960"></wbr>ride with our grandsons. When visiting her in <wbr class="w480 w481 w960 w1799"></wbr>San <wbr class="w1800"></wbr>Antonio, I still <wbr class="w961"></wbr>climb on just to feel how <wbr class="w480 w960"></wbr>great it is to spend time <wbr class="w481 w1799"></wbr>with an old friend that <wbr class="w480 w960 w961"></wbr>just <wbr class="w1800"></wbr>happens to have two wheels.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_medium_paragraph w_medium_text stack column" itemid="73da1461-d659-4488-b42c-c01e2ec52758" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-73da1461-d659-4488-b42c-c01e2ec52758"><div kind="group" index="column" class="group column group column" id="u-73da1461-d659-4488-b42c-c01e2ec52758-g-column"><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-73da1461-d659-4488-b42c-c01e2ec52758-g-column-t-paragraph"><p><span class="first-letter">M</span>y next to last bike and still in my shop, is a <wbr class="w480 w960"></wbr>Trek 728&#x2014;Trek&#x2019;s last <wbr class="w481 w961"></wbr>frame <wbr class="w1799"></wbr>made in the US. <wbr class="w480 w960"></wbr>(Also <wbr class="w1800"></wbr>the yr. our son was born). I happened to <wbr class="w480 w481 w960 w961"></wbr>make my <wbr class="w1799"></wbr>century ride on my 728 a couple of <wbr class="w480 w960"></wbr>years ago <wbr class="w1800"></wbr>for my birthday <wbr class="w481 w961"></wbr>with my <wbr class="w1799"></wbr>son&#x2019;s help. <wbr class="w480 w960"></wbr>He continues to ride and enjoy bikes even more <wbr class="w480 w481 w960 w961"></wbr>than I <wbr class="w1799 w1800"></wbr>do...like I said, DNA.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="868d1db4-ec7f-4588-addb-2fdbeec3452e" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-868d1db4-ec7f-4588-addb-2fdbeec3452e"><div kind="group" index="column" class="group column group column" id="u-868d1db4-ec7f-4588-addb-2fdbeec3452e-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-868d1db4-ec7f-4588-addb-2fdbeec3452e-g-column-t-paragraph"><p><span class="first-letter">L</span>ast year I began in earnest shopping for a <wbr class="w480 w960"></wbr>brand and dealer for two <wbr class="w481 w961 w1799"></wbr>electric bikes&#x2026;one for <wbr class="w480 w960"></wbr>my <wbr class="w1800"></wbr>wife and myself. We bought these for our <wbr class="w480 w481 w960 w961"></wbr>40<sup>th</sup> <wbr class="w1799"></wbr>anniversary so we could ride together <wbr class="w480 w960"></wbr>around our <wbr class="w1800"></wbr>home on Lake <wbr class="w481 w961 w1799"></wbr>Cherokee in East <wbr class="w480 w960"></wbr>Texas. The technology had really come along <wbr class="w480 w960"></wbr>not only <wbr class="w481 w961 w1799"></wbr>on the <wbr class="w1800"></wbr>motors, but the batteries. My <wbr class="w480 w960"></wbr>wife was having issues being able <wbr class="w481 w961 w1799"></wbr>to ride her <wbr class="w480 w960"></wbr>normal bike due to <wbr class="w1800"></wbr>chronic back pain, but still <wbr class="w480 w960"></wbr>so wanted to <wbr class="w481 w961 w1799"></wbr>ride. This gave me the final push <wbr class="w480 w960"></wbr>to buy a Pedego <wbr class="w1800"></wbr>Comfort Cruiser for <wbr class="w481 w961 w1799"></wbr>her, which <wbr class="w480 w960"></wbr>she absolutely loves. I rode her Pedego and <wbr class="w480 w960"></wbr>decided what I <wbr class="w481 w961 w1799"></wbr>liked <wbr class="w1800"></wbr>and still needed--then <wbr class="w480 w960"></wbr>landed with your Yuba Mundo and have <wbr class="w481 w961 w1799"></wbr>never <wbr class="w480 w960"></wbr>looked back. I have always <wbr class="w1800"></wbr>loved Jeeps and <wbr class="w480 w960"></wbr>pickup trucks; the <wbr class="w481 w961 w1799"></wbr>Mundo is basically a two-<wbr class="w480 w960"></wbr>wheeled version of this. It covers all <wbr class="w1800"></wbr>the <wbr class="w481"></wbr>bases-<wbr class="w480 w960 w961 w1799"></wbr>--heavy duty; carries 400lbs, and I sit <wbr class="w480 w960"></wbr>comfortably upright with <wbr class="w481"></wbr>my two <wbr class="w961 w1799"></wbr>grandsons <wbr class="w480 w1800"></wbr>and <wbr class="w960"></wbr>Peaches my dog in the front basket, which <wbr class="w480"></wbr>by <wbr class="w960"></wbr>the <wbr class="w481"></wbr>way, <wbr class="w961 w1799"></wbr>was a deal maker. It is by far the <wbr class="w480"></wbr>best <wbr class="w960 w1800"></wbr>basket in the business. All <wbr class="w481"></wbr>this, <wbr class="w961 w1799"></wbr>and I can <wbr class="w480"></wbr>even <wbr class="w960"></wbr>tow my grandson&#x2019;s 20&#x201D; bike when he gets <wbr class="w480"></wbr>too <wbr class="w960 w1800"></wbr>tired <wbr class="w481"></wbr>to <wbr class="w961 w1799"></wbr>ride!</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i last_chapter w_paragraph w_text w_medium_paragraph w_medium_text stack column" itemid="138bbb0b-45bf-47a9-9d73-3ac066b3aec5" itemtype="text" diff_index="1" index="column" kind="stack" score="2.625" missed="0.375" tag="article" id="u-138bbb0b-45bf-47a9-9d73-3ac066b3aec5"><div kind="group" index="column" class="group column group column" id="u-138bbb0b-45bf-47a9-9d73-3ac066b3aec5-g-column"><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-138bbb0b-45bf-47a9-9d73-3ac066b3aec5-g-column-t-paragraph"><p><span class="first-letter">T</span>his is a winning combination and can only get <wbr class="w480 w960"></wbr>better as Americans <wbr class="w481 w961 w1799"></wbr>learn about electric <wbr class="w480 w960"></wbr>bicycles, <wbr class="w1800"></wbr>their affordability and absolute <wbr class="w480 w960"></wbr>simplicity. <wbr class="w481 w961 w1799"></wbr>It all became so surreal when I took <wbr class="w480 w960"></wbr>out the Yuba for <wbr class="w1800"></wbr>the first time: little <wbr class="w481 w961 w1799"></wbr>noise; a <wbr class="w480 w960"></wbr>gracious dose of speed, power and most of all-<wbr class="w480 w960"></wbr>--freedom. It <wbr class="w481 w961 w1799"></wbr>brings <wbr class="w1800"></wbr>back how much fun a <wbr class="w480 w960"></wbr>bicycle can be&#x2026;. hopping on, and then we <wbr class="w481 w961 w1799"></wbr>are <wbr class="w480 w960"></wbr>ten again.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>hank you Kurt for helping us enjoy this so <wbr class="w480 w960"></wbr>much.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>M</span>ost Kind Regards,</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>B</span>obby </p></div></div></article><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-alternate-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-alternate-g-heading-t-headline-a">Happy Bottom Bikes feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_medium_paragraph w_medium_text w_long_paragraph w_long_text layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-3-l-one"></div><style id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-color">body{background-color: rgba(236, 228, 232, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_medium_paragraph w_medium_text w_long_paragraph w_long_text layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-3-l-one"></div><style id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-color">body{background-color: rgba(236, 228, 232, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+</div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="576f018d-051c-41e4-9172-af2137a81b6a" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-576f018d-051c-41e4-9172-af2137a81b6a"><div kind="group" index="column" class="group column group column" id="u-576f018d-051c-41e4-9172-af2137a81b6a-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-576f018d-051c-41e4-9172-af2137a81b6a-g-column-t-paragraph"><p><span class="first-letter">M</span>y history; I am the only one in my family born <wbr class="w480 w960"></wbr>in the U.S. and since <wbr class="w481"></wbr>my <wbr class="w961 w1799"></wbr>parents were both <wbr class="w480 w960 w1800"></wbr>Dutch, bicycles are a part of our DNA. Bikes are <wbr class="w480 w481 w960"></wbr>not a <wbr class="w961 w1799"></wbr>luxury, but a necessity there. In Holland <wbr class="w480 w960 w1800"></wbr>there are 16 Million <wbr class="w481"></wbr>people and <wbr class="w961 w1799"></wbr>literally 99% of <wbr class="w480 w960"></wbr>them have one, no matter the age&#x2026;.I believe <wbr class="w480 w481 w960"></wbr>the <wbr class="w1800"></wbr>highest <wbr class="w961 w1799"></wbr>average in the world. Going hand in <wbr class="w480 w960"></wbr>hand with bicycles and <wbr class="w481"></wbr>being <wbr class="w1799"></wbr>Dutch, <wbr class="w961"></wbr>is the need <wbr class="w480 w960"></wbr>to be <wbr class="w1800"></wbr>a minimalist. Growing up, I did not have a <wbr class="w480 w481 w960"></wbr>car <wbr class="w1799"></wbr>till I went <wbr class="w961"></wbr>to college, but riding a used &#x2018;48 <wbr class="w480 w960"></wbr>Schwinn <wbr class="w1800"></wbr>Typhoon my <wbr class="w481 w1799"></wbr>daughter happens <wbr class="w961"></wbr>to still <wbr class="w480 w960"></wbr>ride with our grandsons. When visiting her in <wbr class="w480 w481 w960 w1799"></wbr>San <wbr class="w1800"></wbr>Antonio, I still <wbr class="w961"></wbr>climb on just to feel how <wbr class="w480 w960"></wbr>great it is to spend time <wbr class="w481 w1799"></wbr>with an old friend that <wbr class="w480 w960 w961"></wbr>just <wbr class="w1800"></wbr>happens to have two wheels.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_medium_paragraph w_medium_text stack column" itemid="73da1461-d659-4488-b42c-c01e2ec52758" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-73da1461-d659-4488-b42c-c01e2ec52758"><div kind="group" index="column" class="group column group column" id="u-73da1461-d659-4488-b42c-c01e2ec52758-g-column"><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-73da1461-d659-4488-b42c-c01e2ec52758-g-column-t-paragraph"><p><span class="first-letter">M</span>y next to last bike and still in my shop, is a <wbr class="w480 w960"></wbr>Trek 728&#x2014;Trek&#x2019;s last <wbr class="w481 w961"></wbr>frame <wbr class="w1799"></wbr>made in the US. <wbr class="w480 w960"></wbr>(Also <wbr class="w1800"></wbr>the yr. our son was born). I happened to <wbr class="w480 w481 w960 w961"></wbr>make my <wbr class="w1799"></wbr>century ride on my 728 a couple of <wbr class="w480 w960"></wbr>years ago <wbr class="w1800"></wbr>for my birthday <wbr class="w481 w961"></wbr>with my <wbr class="w1799"></wbr>son&#x2019;s help. <wbr class="w480 w960"></wbr>He continues to ride and enjoy bikes even more <wbr class="w480 w481 w960 w961"></wbr>than I <wbr class="w1799 w1800"></wbr>do...like I said, DNA.</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i w_paragraph w_text w_long_paragraph w_long_text stack column" itemid="868d1db4-ec7f-4588-addb-2fdbeec3452e" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-868d1db4-ec7f-4588-addb-2fdbeec3452e"><div kind="group" index="column" class="group column group column" id="u-868d1db4-ec7f-4588-addb-2fdbeec3452e-g-column"><div kind="text" index="paragraph" class="text-decoration long long_paragraph long_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-868d1db4-ec7f-4588-addb-2fdbeec3452e-g-column-t-paragraph"><p><span class="first-letter">L</span>ast year I began in earnest shopping for a <wbr class="w480 w960"></wbr>brand and dealer for two <wbr class="w481 w961 w1799"></wbr>electric bikes&#x2026;one for <wbr class="w480 w960"></wbr>my <wbr class="w1800"></wbr>wife and myself. We bought these for our <wbr class="w480 w481 w960 w961"></wbr>40<sup>th</sup> <wbr class="w1799"></wbr>anniversary so we could ride together <wbr class="w480 w960"></wbr>around our <wbr class="w1800"></wbr>home on Lake <wbr class="w481 w961 w1799"></wbr>Cherokee in East <wbr class="w480 w960"></wbr>Texas. The technology had really come along <wbr class="w480 w960"></wbr>not only <wbr class="w481 w961 w1799"></wbr>on the <wbr class="w1800"></wbr>motors, but the batteries. My <wbr class="w480 w960"></wbr>wife was having issues being able <wbr class="w481 w961 w1799"></wbr>to ride her <wbr class="w480 w960"></wbr>normal bike due to <wbr class="w1800"></wbr>chronic back pain, but still <wbr class="w480 w960"></wbr>so wanted to <wbr class="w481 w961 w1799"></wbr>ride. This gave me the final push <wbr class="w480 w960"></wbr>to buy a Pedego <wbr class="w1800"></wbr>Comfort Cruiser for <wbr class="w481 w961 w1799"></wbr>her, which <wbr class="w480 w960"></wbr>she absolutely loves. I rode her Pedego and <wbr class="w480 w960"></wbr>decided what I <wbr class="w481 w961 w1799"></wbr>liked <wbr class="w1800"></wbr>and still needed--then <wbr class="w480 w960"></wbr>landed with your Yuba Mundo and have <wbr class="w481 w961 w1799"></wbr>never <wbr class="w480 w960"></wbr>looked back. I have always <wbr class="w1800"></wbr>loved Jeeps and <wbr class="w480 w960"></wbr>pickup trucks; the <wbr class="w481 w961 w1799"></wbr>Mundo is basically a two-<wbr class="w480 w960"></wbr>wheeled version of this. It covers all <wbr class="w1800"></wbr>the <wbr class="w481"></wbr>bases-<wbr class="w480 w960 w961 w1799"></wbr>--heavy duty; carries 400lbs, and I sit <wbr class="w480 w960"></wbr>comfortably upright with <wbr class="w481"></wbr>my two <wbr class="w961 w1799"></wbr>grandsons <wbr class="w480 w1800"></wbr>and <wbr class="w960"></wbr>Peaches my dog in the front basket, which <wbr class="w480"></wbr>by <wbr class="w960"></wbr>the <wbr class="w481"></wbr>way, <wbr class="w961 w1799"></wbr>was a deal maker. It is by far the <wbr class="w480"></wbr>best <wbr class="w960 w1800"></wbr>basket in the business. All <wbr class="w481"></wbr>this, <wbr class="w961 w1799"></wbr>and I can <wbr class="w480"></wbr>even <wbr class="w960"></wbr>tow my grandson&#x2019;s 20&#x201D; bike when he gets <wbr class="w480"></wbr>too <wbr class="w960 w1800"></wbr>tired <wbr class="w481"></wbr>to <wbr class="w961 w1799"></wbr>ride!</p></div></div></article><article subject="chapter" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_stretch uninverted vertical collapsed full line_padding_aside_inside text_width_wider group_h_align_center text_align_left flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_article chapter stack column i last_chapter w_paragraph w_text w_medium_paragraph w_medium_text stack column" itemid="138bbb0b-45bf-47a9-9d73-3ac066b3aec5" itemtype="text" diff_index="1" index="column" kind="stack" score="0.625" missed="0.375" tag="article" id="u-138bbb0b-45bf-47a9-9d73-3ac066b3aec5"><div kind="group" index="column" class="group column group column" id="u-138bbb0b-45bf-47a9-9d73-3ac066b3aec5-g-column"><div kind="text" index="paragraph" class="text-decoration medium medium_paragraph medium_text text paragraph vfld-leader vfld-trailer text paragraph" specificity="0.25" itemprop="text" id="u-138bbb0b-45bf-47a9-9d73-3ac066b3aec5-g-column-t-paragraph"><p><span class="first-letter">T</span>his is a winning combination and can only get <wbr class="w480 w960"></wbr>better as Americans <wbr class="w481 w961 w1799"></wbr>learn about electric <wbr class="w480 w960"></wbr>bicycles, <wbr class="w1800"></wbr>their affordability and absolute <wbr class="w480 w960"></wbr>simplicity. <wbr class="w481 w961 w1799"></wbr>It all became so surreal when I took <wbr class="w480 w960"></wbr>out the Yuba for <wbr class="w1800"></wbr>the first time: little <wbr class="w481 w961 w1799"></wbr>noise; a <wbr class="w480 w960"></wbr>gracious dose of speed, power and most of all-<wbr class="w480 w960"></wbr>--freedom. It <wbr class="w481 w961 w1799"></wbr>brings <wbr class="w1800"></wbr>back how much fun a <wbr class="w480 w960"></wbr>bicycle can be&#x2026;. hopping on, and then we <wbr class="w481 w961 w1799"></wbr>are <wbr class="w480 w960"></wbr>ten again.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>T</span>hank you Kurt for helping us enjoy this so <wbr class="w480 w960"></wbr>much.</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>M</span>ost Kind Regards,</p><p><span class="first-letter"><wbr class="w480 w481 w960 w961 w1799 w1800"></wbr>B</span>obby </p></div></div></article><article subject="panel" class="col-1 export-linebreaks not_decorated color_adjust_none color_styles_no_group_bg color_schema_default stack_transparency_off v_emphasis_none h_emphasis_none group_overlap_none stack_v_outset_none stack_v_inset_none stack_h_outset_none stack_h_inset_xsmall stack_h_align_center uninverted vertical collapsed full line_padding_aside_inside text_width_full group_h_align_none text_align_center flow_unreversed group_v_outset_none group_v_inset_none group_h_outset_none group_h_inset_xsmall flow_vertical font_size_small panel stack heading i first_panel last_panel w_headline w_title w_decoration w_short_headline w_short_title stack heading" itemid="u-page-alternate" itemtype="alternate" diff_index="2" index="heading" kind="stack" score="1.875" missed="0.125" tag="article" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-alternate"><div kind="group" index="heading" class="group heading group heading" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-alternate-g-heading"><h1 kind="title" index="headline" class="short short_headline short_title title headline vfld-leader vfld-trailer title headline" specificity="0.25" itemprop="title" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-alternate-g-heading-t-headline"><a class="text-decoration" href="../rss.xml" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-alternate-g-heading-t-headline-a">Happy Bottom Bikes feed</a></h1></div></article><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_medium_paragraph w_medium_text w_long_paragraph w_long_text layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-desktop-l-one-3-l-one"></div><style id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-color">body{background-color: rgba(236, 228, 232, 1)}</style></section><section kind="layout" style="position: relative" sequence="one" role="header" diff_index="0" index="one" class="layout one i first_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title w_list w_data w_short_list w_short_data layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout header layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="article" diff_index="0" index="one" class="layout one i w_headline w_title w_paragraph w_text w_separator w_decoration w_leader w_short_headline w_short_title w_medium_paragraph w_medium_text w_long_paragraph w_long_text layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-2"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_texts colors-use-same-as-previous layout one i first_layout last_layout article layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-2-l-one"></div></section><section kind="layout" style="position: relative" sequence="one" role="footer" diff_index="0" index="one" class="layout one i last_layout w_headline w_title w_separator w_decoration w_leader w_trailer w_icon w_short_headline w_short_title layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-3"><div kind="layout" style="position: relative" sequence="one" diff_index="0" index="one" class="colors-use-local w_titles layout one i first_layout last_layout footer layout one" id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-cinema-l-one-3-l-one"></div><style id="u-5f5b8ef3-fba6-4cf2-abd2-fdbb445f68ea-color">body{background-color: rgba(236, 228, 232, 1)}</style></section></div><script href="./client.js">(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 /*! Hammer.JS - v1.1.3 - 2014-05-20
  * http://eightmedia.github.io/hammer.js
  *
@@ -1761,9 +1796,11 @@ global.Hamburger = require('./hamburger');
 
 global.Highlighter = require('./highlighter');
 
+global.Player = require('./player');
+
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
+},{"./animator":3,"./hamburger":4,"./highlighter":5,"./paginator":7,"./player":8,"hammerjs/hammer.min.js":1,"picturefill/dist/picturefill.min.js":2}],7:[function(require,module,exports){
 var appendPage, mainpage, page, ref, ref1, urls;
 
 page = require('./reflow');
@@ -1864,7 +1901,192 @@ module.exports = function() {
 };
 
 
-},{"./reflow":8}],8:[function(require,module,exports){
+},{"./reflow":9}],8:[function(require,module,exports){
+var Player, Youtube, iframe, revealed, rgb2hex;
+
+iframe = null;
+
+Youtube = null;
+
+Player = function(id, src, width, height, color, bg) {
+  if (src.indexOf('youtube') > -1) {
+    src += '&color=white&theme=light&modestbranding=1';
+  }
+  src = src.replace('COLOR', color).replace('BG', bg);
+  if (location.protocol !== 'https:') {
+    src = src.replace('https:', 'http:');
+  }
+  iframe = document.createElement('iframe');
+  iframe.id = id;
+  iframe.setAttribute('allowfullscreen', '');
+  iframe.src = src;
+  iframe.width = width;
+  iframe.height = height;
+  iframe.style.width = '100%';
+  iframe.style.height = '100%';
+  iframe.style.left = 0;
+  iframe.style.right = 0;
+  iframe.style.position = 'absolute';
+  iframe.style.opacity = 0.2;
+  iframe.onload = function() {
+    return iframe.style.opacity = 1;
+  };
+  return iframe;
+};
+
+revealed = null;
+
+Player.reveal = function(iframe) {
+  var diff, i, left, len, parent, play, ref, ref1, sibling, target, top, translateX, translateY;
+  while (target = (target || iframe).parentNode) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (target.parentNode.classList.contains('group')) {
+        parent = target.parentNode;
+      } else {
+        parent = target;
+      }
+      revealed = iframe;
+      play = parent.getElementsByClassName('play')[0];
+      left = target.offsetWidth - play.offsetLeft - play.offsetWidth;
+      top = -play.offsetTop;
+      play.style.webkitTransformOrigin = 'top right';
+      play.style.webkitTransform = 'translateX(' + left + 'px) translateY(' + top + 'px) scale(0.5)';
+      target.classList.add('revealed');
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        if (sibling.nodeType === 1 && sibling !== parent) {
+          translateX = translateY = null;
+          if ((diff = sibling.offsetLeft + sibling.offsetWidth - parent.offsetLeft) > 2 && parent.offsetLeft >= sibling.offsetLeft) {
+            translateX = -diff;
+          }
+          if ((diff = target.offsetLeft + target.offsetWidth - sibling.offsetLeft) > 2 && parent.offsetLeft <= sibling.offsetLeft) {
+            if (!translateX || Math.abs(diff) < Math.abs(translateX)) {
+              translateX = diff;
+            }
+          }
+          if ((diff = sibling.offsetTop + sibling.offsetHeight - parent.offsetTop) > 2 && parent.offsetTop >= sibling.offsetTop) {
+            translateY = -diff;
+          }
+          if ((diff = target.offsetTop + target.offsetHeight - sibling.offsetTop) > 2 && parent.offsetTop <= sibling.offsetTop) {
+            if (!translateY || Math.abs(diff) < Math.abs(translateY)) {
+              translateY = diff;
+            }
+          }
+          if (Math.abs(translateX) > Math.abs(translateY)) {
+            sibling.style.webkitTransform = 'translateY(' + translateY + 'px)';
+          } else {
+            sibling.style.webkitTransform = 'translateX(' + translateX + 'px)';
+          }
+          console.log(translateX, translateY, sibling);
+        }
+      }
+    }
+  }
+};
+
+Player.hide = function(iframe) {
+  var i, len, parent, play, ref, ref1, sibling;
+  while (parent = (parent || iframe).parentNode) {
+    if ((ref = parent.classList) != null ? ref.contains('revealed') : void 0) {
+      parent.classList.remove('revealed');
+      if (parent.parentNode.classList.contains('group')) {
+        parent = parent.parentNode;
+      }
+      play = parent.getElementsByClassName('play')[0];
+      play.style.webkitTransform = '';
+      ref1 = parent.parentNode.childNodes;
+      for (i = 0, len = ref1.length; i < len; i++) {
+        sibling = ref1[i];
+        sibling.style.webkitTransform = '';
+      }
+    }
+  }
+  return revealed = null;
+};
+
+window.addEventListener('resize', function() {
+  return setTimeout(function() {
+    return requestAnimationFrame(function() {
+      if (revealed) {
+        if (revealed.offsetWidth) {
+          return Player.reveal(revealed);
+        } else {
+          return Player.stop(revealed);
+        }
+      }
+    });
+  }, 10);
+});
+
+Player.stop = function(iframe) {
+  var old;
+  old = iframe;
+  iframe.style.opacity = 0;
+  setTimeout(function() {
+    var ref;
+    return (ref = old.parentNode) != null ? ref.removeChild(old) : void 0;
+  }, 300);
+  Player.hide(iframe);
+  return iframe = null;
+};
+
+document.addEventListener('click', function(e) {
+  var bg, color, header, parent, play, ref, ref1, results, styles, target;
+  target = e.target;
+  results = [];
+  while (target) {
+    if ((ref = target.classList) != null ? ref.contains('media') : void 0) {
+      if (play = target.getElementsByClassName('play')[0]) {
+        if ((iframe != null ? iframe.parentNode : void 0) === target) {
+          Player.stop(iframe);
+        } else {
+          if (iframe) {
+            Player.stop(iframe);
+          }
+          color = bg = null;
+          header = (ref1 = target.parentNode.parentNode.getElementsByClassName('title')[0]) != null ? ref1.firstChild : void 0;
+          parent = header || play;
+          while (parent) {
+            if (parent.nodeType === 1) {
+              styles = window.getComputedStyle(parent);
+              if (styles.color.indexOf('rgba') === -1 || !styles.color.match(/,\s*0\)/)) {
+                if (color == null) {
+                  color = styles.color;
+                }
+              }
+              if (styles['background-color'].indexOf('rgba') === -1 || !styles['background-color'].match(/,\s*0\)/)) {
+                if (bg == null) {
+                  bg = styles['background-color'];
+                }
+              }
+            }
+            parent = parent.parentNode;
+          }
+          iframe = Player(play.id + '-player', play.getAttribute('data-src'), play.getAttribute('data-width'), play.getAttribute('data-height'), rgb2hex(color), rgb2hex(bg));
+          target.appendChild(iframe);
+          Player.reveal(iframe);
+        }
+        e.preventDefault();
+        break;
+      }
+    }
+    results.push(target = target.parentNode);
+  }
+  return results;
+});
+
+rgb2hex = function(rgb) {
+  rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
+  if (rgb && rgb.length === 4) {
+    return ("0" + parseInt(rgb[1], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[2], 10).toString(16)).slice(-2) + ("0" + parseInt(rgb[3], 10).toString(16)).slice(-2);
+  }
+};
+
+window.exports = window.Player = Player;
+
+
+},{}],9:[function(require,module,exports){
 module.exports = {
   reflow: function(container) {
     var counter, heights, hidden, hole, holed, holes, i, id, ids, index, j, k, l, last, layout, layouts, len, len1, len2, len3, m, mutations, name, node, ref, ref1, ref2, stack, stacks;
@@ -2129,7 +2351,7 @@ module.exports = function(callback) {
   } else {
     protocol = '';
   }
-  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.4/gss.document.parser.js";
+  url = protocol + "//cdn.thegrid.io/gss/gss-document/1.2.8/gss.document.parser.js";
   if (location.toString().indexOf('//localhost:8080') > -1) {
     return module.exports.load(protocol + "//localhost:8080/node_modules/gss-document/dist/gss.document.parser.js", callback, function() {
       return module.exports.load(url, callback);
