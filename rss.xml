@@ -4,8 +4,15 @@
         <description><![CDATA[Home Page]]></description>
         <link>https://thegrid.ai/happy-bottom-bikes/</link>
         <generator>The Grid</generator>
-        <lastBuildDate>Sat, 16 Jan 2016 06:05:18 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Jan 2016 06:11:33 GMT</lastBuildDate>
         <atom:link href="https://thegrid.ai/happy-bottom-bikes/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Electric Cargo Bike News]]></title>
+            <description><![CDATA[<article><h1>Electric Cargo Bike News</h1><p>By Bobby G.</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/7fde35bdcd36cd80cc5eaaafc68ca88c94789c18.png"></article>]]></description>
+            <link>https://thegrid.ai/happy-bottom-bikes/electric-cargo-bike-news/index.html</link>
+            <guid isPermaLink="false">3054a61d-5593-4f74-89b3-03df45653363</guid>
+            <pubDate>Sat, 16 Jan 2016 06:11:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Electric Cargo Bikes]]></title>
             <description><![CDATA[<article><h1>Electric Cargo Bikes</h1><p>FOUR WHEELS CARRY YOUR BODY, BUT....  TWO WHEELS CARRY YOUR SOUL</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/d8643c3ba65b2be6895b9c6b0fce37d91db16490.jpg"></article>]]></description>
@@ -21,13 +28,6 @@ world.</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/dc54c713fd
             <link>https://thegrid.ai/happy-bottom-bikes/a-standard-range-15ah-version-provides-a-real-world-40-to/index.html</link>
             <guid isPermaLink="false">a8a5ca26-7fc6-4834-af24-ffcf0cb84c47</guid>
             <pubDate>Tue, 05 Jan 2016 05:53:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Electric Cargo Bike News]]></title>
-            <description><![CDATA[<article><h1>Electric Cargo Bike News</h1><p>By Bobby G.</p><img src="https://s3-us-west-2.amazonaws.com/the-grid-img/p/7fde35bdcd36cd80cc5eaaafc68ca88c94789c18.png"></article>]]></description>
-            <link>https://thegrid.ai/happy-bottom-bikes/electric-cargo-bike-news/index.html</link>
-            <guid isPermaLink="false">3054a61d-5593-4f74-89b3-03df45653363</guid>
-            <pubDate>Tue, 05 Jan 2016 05:52:14 GMT</pubDate>
         </item>
     </channel>
 </rss>
