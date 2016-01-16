@@ -6,7 +6,7 @@ inLanguage: null
 starred: true
 keywords: []
 description: ''
-datePublished: '2016-01-16T06:11:32.912Z'
+datePublished: '2016-01-16T06:11:32.926Z'
 dateModified: '2016-01-16T06:11:29.433Z'
 title: Electric Cargo Bike News
 author: []
