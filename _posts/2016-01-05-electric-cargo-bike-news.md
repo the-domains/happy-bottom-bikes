@@ -3,11 +3,11 @@ inFeed: true
 hasPage: true
 inNav: false
 inLanguage: null
-starred: false
+starred: true
 keywords: []
 description: ''
-datePublished: '2016-01-05T05:52:14.620Z'
-dateModified: '2016-01-05T05:32:03.999Z'
+datePublished: '2016-01-16T06:11:32.912Z'
+dateModified: '2016-01-16T06:11:29.433Z'
 title: Electric Cargo Bike News
 author: []
 authors: []
